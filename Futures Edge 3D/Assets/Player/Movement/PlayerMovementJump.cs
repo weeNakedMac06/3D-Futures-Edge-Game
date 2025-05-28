@@ -5,12 +5,12 @@ public class PlayerMovementJump : MonoBehaviour
     public float moveSpeed = 5f;
     public float sprintMultiplier = 1.5f;
 
-    public float jumpForce = 7f;          // Initial jump velocity
-    public float gravity = -9.81f;        // Gravity acceleration
-    public float groundY = 1f;            // Y position considered "ground"
+    public float jumpForce = 7f;          
+    public float gravity = -9.81f;        
+    public float groundY = 1f;            
 
-    private float verticalVelocity = 0f;  // Current vertical speed
-    private bool isGrounded = true;       // Is the player on the ground?
+    private float verticalVelocity = 0f;  
+    private bool isGrounded = true;       
 
     void Update()
     {
