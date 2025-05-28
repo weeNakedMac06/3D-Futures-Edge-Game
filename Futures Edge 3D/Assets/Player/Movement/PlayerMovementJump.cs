@@ -10,7 +10,7 @@ public class PlayerMovementJump : MonoBehaviour
     public float groundY = 1f;            
 
     private float verticalVelocity = 0f;  
-    private bool isGrounded = true;       
+    public bool isGrounded = true;       
 
     void Update()
     {
